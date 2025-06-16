@@ -11,19 +11,19 @@ const brands = [
     { src: '/royal-enfield.png', alt: 'Royal Enfield' },
     { src: '/yamaha.png', alt: 'Yamaha' },
     { src: '/ktm.png', alt: 'KTM' },
-    { src: '/ather.png', alt: 'Ather' },
+    { src: '/ather.jpg', alt: 'Ather' },
   ],
   [
     { src: '/ola-electric.png', alt: 'Ola Electric' },
     { src: '/revolt.png', alt: 'Revolt' },
     { src: '/ultraviolette.png', alt: 'Ultraviolette' },
-    { src: '/tork.png', alt: 'Tork Motors' },
+    { src: '/tork.jpg', alt: 'Tork Motors' },
   ],
 ];
 
 export default function BrandGrid() {
   return (
-    <div className="w-full bg-white py-12 flex flex-col items-center">
+    <div className="w-full bg-white py-12 flex flex-col items-center mt-10">
       <h2 className="text-3xl md:text-4xl font-extrabold text-center text-[#222] uppercase mb-12">
         Lorem ipsum dolor sit amet<br className="hidden md:block" />
         consectetur. commodo leo amet.
