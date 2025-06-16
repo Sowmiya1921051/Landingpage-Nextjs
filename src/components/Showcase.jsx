@@ -12,9 +12,9 @@ export default function Showcase() {
             </div>
 
             {/* Main Content */}
-            <div className="flex flex-col md:flex-row flex-1 px-8 py-6 gap-8">
+            <div className="flex flex-col md:flex-row flex-1 py-6">
                 {/* Left Side */}
-                <div className="flex-1 flex flex-col justify-center">
+                <div className="flex-1 flex flex-col justify-center pl-8">
                     <h1 className="font-['Roboto_Condensed'] text-[32px] md:text-[36px] font-bold text-[#222] tracking-tight mb-2 leading-tight uppercase">
                         Lorem Ipsum<br />Dolor Sit Amet
                     </h1>
@@ -47,7 +47,7 @@ export default function Showcase() {
 
                 {/* Right Image Section */}
                 <div className="flex-1 flex items-center justify-center relative">
-                    <div className="w-full h-[350px] md:h-[420px]  overflow-hidden shadow-lg border border-gray-100 relative">
+                    <div className="w-full h-[350px] md:h-[520px]  overflow-hidden shadow-lg border border-gray-100 relative">
                         {/* Decorative notches */}
                         <div className="absolute -top-3 left-1/2 -translate-x-1/2 flex gap-2 z-10">
                             {[...Array(3)].map((_, i) => (
@@ -79,10 +79,9 @@ export default function Showcase() {
                         123456789
                     </div>
                 </div>
-
-                {/* Gradient Bar */}
-                <div className="h-3 w-full mt-4 rounded bg-gradient-to-r from-[#0546D2] via-[#00FFB2] to-[#5B5BFF]" />
             </div>
+            {/* Gradient Bar */}
+            <div className="h-3 w-full mt-4  bg-gradient-to-r from-[#0546D2] via-[#00FFB2] to-[#5B5BFF]" />
         </div>
     );
 }

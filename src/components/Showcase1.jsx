@@ -49,7 +49,7 @@ export default function Showcase1() {
         </div>
         {/* Right Side - Main Image */}
         <div className="flex-1 flex items-center justify-center">
-          <div className="w-full h-[400px] md:h-[500px] relative rounded overflow-hidden shadow-lg">
+          <div className="w-full h-[400px] md:h-[500px] relative  overflow-hidden shadow-lg">
             <Image
               src="/office-team.png" // Place your image in /public/office-team.jpg
               alt="Office Team"
@@ -61,7 +61,7 @@ export default function Showcase1() {
         </div>
       </div>
       {/* Optional: Gradient Bar at the bottom */}
-      <div className="h-3 w-full mt-4 rounded bg-gradient-to-r from-[#0546D2] via-[#00FFB2] to-[#5B5BFF]" />
+      <div className="h-3 w-full mt-4  bg-gradient-to-r from-[#0546D2] via-[#00FFB2] to-[#5B5BFF]" />
     </div>
   );
 } 
