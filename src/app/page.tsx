@@ -7,6 +7,9 @@ import CardGrid from '@/components/CardGrid';
 import StudioHero from '@/components/StudioHero';
 import RequestQuoteForm from '@/components/RequestQuoteForm';
 import AppPromo from '@/components/AppPromo';
+import MotoShowcase from '@/components/MotoShowcase';
+import TestimonialSection from '@/components/TestimonialSection';
+import CollaborationSection from '@/components/CollaborationSection';
 
 export default function Home() {
   return (
@@ -20,6 +23,9 @@ export default function Home() {
       <StudioHero />
       <RequestQuoteForm />
       <AppPromo />
+      <MotoShowcase />
+      <TestimonialSection />
+      <CollaborationSection />
     </div>
   );
 }

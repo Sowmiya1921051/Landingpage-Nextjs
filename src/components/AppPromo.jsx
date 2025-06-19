@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AppPromo() {
   return (
-    <section className="w-full bg-[#f7f7f7] py-12">
+    <section className="w-full bg-[#F3F3F3] py-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         {/* Left Content */}
         <div className="flex-1 flex flex-col items-start justify-center mb-8 md:mb-0">
